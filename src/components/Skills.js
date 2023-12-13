@@ -2,7 +2,6 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
 import react from '../assets/img/react.png'
-import reactnative from '../assets/img/react-native.png'
 import mysql from '../assets/img/mysql.png'
 import javascript from '../assets/img/javascript.png'
 import firebase from '../assets/img/firebase.png'
@@ -40,21 +39,22 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
               <br />
-              <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+              {/* <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider"> */}
+              <div className='skill_list'>
                 <div className="item">
                   <img src={react} className="skill_img" alt="Image" />
                   <h5>React.js</h5>
                 </div>
                 <div className="item">
-                  <img src={javascript} alt="Image" />
+                  <img src={javascript} className="skill_img" alt="Image" />
                   <h5>JavaScript</h5>
                 </div>
                 <div className="item">
-                  <img src={node} alt="Image" />
+                  <img src={node} className="skill_img" alt="Image" />
                   <h5>Node.js</h5>
                 </div>
                 <div className="item">
-                  <img src={java} alt="Image" />
+                  <img src={java} className="skill_img" alt="Image" />
                   <h5>Java</h5>
                 </div>
                 <div className="item">
@@ -62,7 +62,7 @@ export const Skills = () => {
                   <h5>React Native</h5>
                 </div>
                 <div className="item">
-                  <img src={python} alt="Image" />
+                  <img src={python} className="skill_img" alt="Image" />
                   <h5>Python</h5>
                 </div>
                 <div className="item">
@@ -70,14 +70,15 @@ export const Skills = () => {
                   <h5>MySQL</h5>
                 </div>
                 <div className="item">
-                  <img src={mongodb} alt="Image" />
+                  <img src={mongodb} className="skill_img" alt="Image" />
                   <h5>MongoDB</h5>
                 </div>
                 <div className="item">
-                  <img src={firebase} alt="Image" />
+                  <img src={firebase} className="skill_img" alt="Image" />
                   <h5>Firebase</h5>
                 </div>
-              </Carousel>
+              </div>
+              {/* </Carousel> */}
             </div>
           </div>
         </div>
