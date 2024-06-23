@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
-import TrackVisibility from 'react-on-screen';
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -11,7 +10,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Full Stack Developer", "Writer", "Mobile App Developer"];
+  const toRotate = ["Mern Stack Developer", "Writer", "Mobile App Developer"];
   const period = 1000;
 
   useEffect(() => {
@@ -56,9 +55,9 @@ export const Banner = () => {
               <span className="tagline">Welcome to my Portfolio</span>
               <h1>{`Hi! I'm Prashant`}</h1>
               <h2 className="txt-rotate"><span className="wrap">{text}</span></h2>
-              <p>A skilled Full Stack Developer with 2 years of hands-on experience, dedicated to creating seamless and
+              <p>A skilled Full Stack Developer with 2.5+ years of hands-on experience, dedicated to creating seamless and
                 responsive user interfaces. Proficient in building dynamic web applications, I bring expertise in JavaScript, React, and modern front-end technologies. Passionate about crafting intuitive user experiences, I thrive in collaborative environments, delivering high-quality solutions tailored to user needs.</p>
-              <a href='https://drive.google.com/file/d/1F1XQG6ptPKeLY6-GbmZa5Xhu9GU8_4Wg/view?usp=share_link' target="_blank">
+              <a href='https://drive.google.com/file/d/1ySTSeZtjXHotdIuONUGQZlgmlgPITuUG/view?usp=share_link' target="_blank">
                 <button>Download CV <ArrowRightCircle size={25} /></button>
               </a>
             </div>

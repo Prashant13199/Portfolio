@@ -33,16 +33,8 @@ export const Skills = () => {
                   <h5>Node.js</h5>
                 </div>
                 <div className="item">
-                  <img src={java} className="skill_img" alt="Image" />
-                  <h5>Java</h5>
-                </div>
-                <div className="item">
                   <img src={react} className="skill_img" alt="Image" />
                   <h5>React Native</h5>
-                </div>
-                <div className="item">
-                  <img src={python} className="skill_img" alt="Image" />
-                  <h5>Python</h5>
                 </div>
                 <div className="item">
                   <img src={mysql} className="skill_img" alt="Image" />
@@ -55,10 +47,6 @@ export const Skills = () => {
                 <div className="item">
                   <img src={firebase} className="skill_img" alt="Image" />
                   <h5>Firebase</h5>
-                </div>
-                <div className="item">
-                  <img src={nextjs} className="skill_img" alt="Image" />
-                  <h5>Next.js</h5>
                 </div>
               </div>
             </div>
